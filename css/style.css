@@ -745,12 +745,10 @@ font-size: 50px;
     height: 350px;
   }
    .portfolio-filter {   
-  font-size: 20px; 
+   font-size: 20px; 
 }
 
-.portfolio-filter li {
-  margin-right: 0px; 
-}
+
 }
 
 /* Large Mobile :480px. */
