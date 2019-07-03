@@ -761,36 +761,34 @@ font-size: 50px;
   .body-pad {
     padding: 0 15px;
   }
-  .main-menu {
-    position: absolute;
-    background: #efefef;
-    width: 100%;
-    z-index: 999;
-    left: 0;
-    top: 30px;
-    padding-top: 15px;
-    display: none;
+  
+
+  h1 {
+    font-size: 44px; 
+    font-weight: 800;
+    
   }
-  .main-menu ul li a {
-    padding: 10px 15px;
-    border-bottom: 1px solid #ddd;
-    display: block;
+  
+  h2 {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1.1;
   }
-  .main-menu ul li {
-    display: block;
+  
+  h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.1;
   }
-  .main-menu ul li:last-child a {
-    border-bottom: none;
-  }
-  .home-2 {
-    text-align: left;
-  }
-  .home-2 .main-menu {
-    top: 99px;
+  
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;      
   }
 
     .portfolio-filter {
-    text-align: left;
+    text-align: center;
   }
 }
 
