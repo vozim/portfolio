@@ -166,21 +166,6 @@ ol {
 /*=== Buttons ===*/
 
 
-.msg-btn {
- 
-  font-size: 14px;
-  min-width: 140px;
-  text-align: center;
-  padding: 15px 10px;
-  position: relative;
-  color: #fff;
-  border: none;
-  background-color: #000;
-  margin-right: 15px;
-  z-index: 1;
-  font-weight: 700;
-  text-transform: uppercase;
-}
 
 
 .site-btn {
@@ -200,7 +185,6 @@ ol {
 }
 
 
-
 .site-btn.btn-line {
   background: none;
   border: 2px solid #001418;
@@ -214,16 +198,10 @@ ol {
   border-color: #0000ef;
 }
 
-.site-btn.btn-line-fade {
-  background: none;
-  border: 2px solid #979797;
-  color: #979797;
-  padding: 13px 10px;
-}
 
 .site-btn.btn-line-fade:hover {
   color: #979797;
-}
+} 
 
 .site-btn:hover {
   color: #fff;
@@ -472,7 +450,7 @@ ol {
 }
 
 .portfolio-item {
-  display: block;
+   display: block;
   width: 100%;
   height: 500px;
   background-position: center center;
@@ -741,9 +719,21 @@ font-size: 50px;
 
 /* Medium screen : 992px. */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+
   .portfolio-item {
     height: 450px;
   }
+  
+  .portfolio-filter {   
+  font-size: 20px; 
+}
+
+.portfolio-filter li {
+  margin-right: 0px; 
+}
+  
+  
 }
 
 /* Tablet :768px. */
@@ -754,6 +744,13 @@ font-size: 50px;
   .portfolio-item {
     height: 350px;
   }
+   .portfolio-filter {   
+  font-size: 20px; 
+}
+
+.portfolio-filter li {
+  margin-right: 0px; 
+}
 }
 
 /* Large Mobile :480px. */
@@ -763,14 +760,28 @@ font-size: 50px;
   }
   
 
+/* small Mobile :320px. */
+@media only screen and (max-width: 479px) {
+  .section-title {
+    font-size: 30px;
+  }
+  	.header{
+  padding-top: 15px;
+  padding-bottom: 15px;  
+}
+
+.intro {
+  padding: 20px 0 40px 0;
+}
+
   h1 {
-    font-size: 44px; 
+    font-size: 34px; 
     font-weight: 800;
     
   }
   
   h2 {
-    font-size: 34px;
+    font-size: 20px;
     font-weight: 700;
     line-height: 1.1;
   }
@@ -785,16 +796,30 @@ font-size: 50px;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.6;      
-  }
+	}
+  
+	   .portfolio-item{
+	border-radius: 30px;
+	}
+	.portfolio-filter {  
+	padding-bottom: 20px;
+	font-size: 20px;  
+	}
 
-    .portfolio-filter {
-    text-align: center;
-  }
-
-
-/* small Mobile :320px. */
-@media only screen and (max-width: 479px) {
-  .section-title {
-    font-size: 30px;
-  }
+	.portfolio-filter li {
+	margin: 0 15px 0 0px; 
+	}
+	.portfolio-filter {
+	text-align: center;
+	}
+	
+.site-btn {
+border-radius: 30px;
+  font-size: 14px;
+  min-width: 100%;
+  color: #0000fe;
+  border: none;
+  background-color: #0000fe;
+  
+}
 }
