@@ -718,15 +718,10 @@ font-size: 50px;
 /* Medium screen : 992px. */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 
-
   .portfolio-item {
     height: 450px;
   }
-  
-.portfolio-filter li {
-  margin-right: 30px; 
-}
-  
+   
   
 }
 
