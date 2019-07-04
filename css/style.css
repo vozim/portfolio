@@ -36,8 +36,7 @@ p {
   font-weight: 400;
   line-height: 1.6;
   margin: 0px 0 15px 0;
-  display: block;
-  
+  display: block;  
 }
 
 img {
@@ -60,19 +59,22 @@ textarea:focus {
   outline: none;
 }
 
+
+
 a{
-color: #0000fe;
+color: #979797;
 text-decoration: none;
 outline: none;
 font-weight: 700;
 }
-
 a:hover,
 a:focus {
   color: #0000fe;
   text-decoration: none;
   outline: none;
 }
+
+
 
 ul,
 ol {
@@ -168,42 +170,24 @@ ol {
 
 
 
-.site-btn {
- 
-  font-size: 14px;
-  min-width: 140px;
-  text-align: center;
-  padding: 15px 10px;
-  position: relative;
-  color: #fff;
-  border: none;
-  background-color: #000;
-  margin-right: 15px;
-  z-index: 1;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-
-.site-btn.btn-line {
+.msgbtn {
   background: none;
   border: 2px solid #001418;
   color: #001418;
   padding: 13px 0px;
- margin: 0;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing:1px;
+  text-transform: uppercase;  
+  text-align: center;
+  z-index: 1;
+  
 }
 
-.site-btn.btn-line:hover {
+.msgbtn:hover {
   background-color: #0000ef;
   border-color: #0000ef;
-}
-
-
-.site-btn.btn-line-fade:hover {
-  color: #979797;
-} 
-
-.site-btn:hover {
   color: #fff;
 }
 
@@ -410,7 +394,7 @@ ol {
     Intro Section
 --------------------------*/
 .intro {
-  padding: 50px 0 90px 0;
+  padding: 10px 0 60px 0;
 }
 
 /*------------------------
@@ -649,7 +633,7 @@ font-size: 50px;
 --------------------------*/
 
 .outro {
-  padding: 50px 0 50px 0;
+  padding: 10px 0 50px 0;
  
 }
 .contact {
@@ -744,24 +728,47 @@ font-size: 50px;
   .portfolio-item {
     height: 350px;
   }
-   .portfolio-filter {   
-   font-size: 20px; 
-   
-}
-
-
-}
+      
+   .portfolio-filter li {
+    padding-left: 20px;
+    }
+    
+  }
 
 /* Large Mobile :480px. */
 @media only screen and (max-width: 766px) {
   .body-pad {
     padding: 0 15px;
   }
-   .portfolio-filter {   
-   font-size: 20px; 
-   text-align: center;
- 
-}
+   
+  .portfolio-filter {  
+    padding-bottom: 20px;
+    font-size: 20px;  
+    text-align: center;
+    }
+    
+    .portfolio-filter li {
+    margin: 0 30px 0 15px; 
+    }
+          
+
+  .msgbtn {
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: none;
+    letter-spacing:1px;
+    min-width: 70%;
+    color: #fff;
+    border: none;
+    background-color: #0000fe;
+  }
+  .portfolio-item .pi-inner {
+    border-radius: 40px;
+  }
+	.portfolio-item{
+	border-radius: 40px;
+	}
 }
 
 /* small Mobile :320px. */
@@ -777,7 +784,9 @@ font-size: 50px;
 .intro {
   padding: 20px 0 40px 0;
 }
-
+.outro {
+  padding: 20px 0 40px 0;
+}
   h1 {
     font-size: 34px; 
     font-weight: 800;
@@ -800,28 +809,36 @@ font-size: 50px;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.6;      
-	}
+  }
   
+  .portfolio-item .pi-inner {
+    border-radius: 30px;
+  }
 	.portfolio-item{
 	border-radius: 30px;
 	}
 	.portfolio-filter {  
 	padding-bottom: 20px;
 	font-size: 20px;  
-	}
-
-	.portfolio-filter li {
-	margin: 0 15px 0 15px; 
-	}
-	.portfolio-filter {
-	text-align: center;
-	}
+  }
+  
+  .portfolio-filter li {
+  margin: 0 20px 0 10px; 
+  }
+  .portfolio-filter {
+  text-align: center;
+  }
+    
+  
 	
-.site-btn {
-border-radius: 30px;
-  font-size: 14px;
+.msgbtn {
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing:1px;
   min-width: 100%;
-  color: #0000fe;
+  color: #fff;
   border: none;
   background-color: #0000fe;
   
