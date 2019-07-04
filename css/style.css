@@ -98,6 +98,10 @@ ol {
   padding-top: 100px;
 }
 
+.pl-6{
+  padding-left: 90px;
+  }
+
 .set-bg {
   background-repeat: no-repeat;
   background-size: cover;
@@ -165,10 +169,11 @@ ol {
   }
 }
 
+
+
+
+
 /*=== Buttons ===*/
-
-
-
 
 .msgbtn {
   background: none;
@@ -182,6 +187,7 @@ ol {
   text-transform: uppercase;  
   text-align: center;
   z-index: 1;
+  
   
 }
 
@@ -637,7 +643,7 @@ font-size: 50px;
  
 }
 .contact {
-  padding: 50px 0 50px 0;
+  padding: 20px 0 40px 0;
   background-color: #fafafa;
 }
 
@@ -740,7 +746,11 @@ font-size: 50px;
   .body-pad {
     padding: 0 15px;
   }
-   
+
+  .pl-6{
+    padding-left: 15px;
+    }
+
   .portfolio-filter {  
     padding-bottom: 20px;
     font-size: 20px;  
@@ -762,6 +772,7 @@ font-size: 50px;
     color: #fff;
     border: none;
     background-color: #0000fe;
+    
   }
   .portfolio-item .pi-inner {
     border-radius: 40px;
