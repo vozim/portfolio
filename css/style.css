@@ -723,10 +723,6 @@ font-size: 50px;
     height: 450px;
   }
   
-  .portfolio-filter {   
-  font-size: 20px; 
-}
-
 .portfolio-filter li {
   margin-right: 30px; 
 }
@@ -743,9 +739,8 @@ font-size: 50px;
     height: 350px;
   }
       
-   .portfolio-filter li {
-    padding-left: 20px;
-    }
+   
+   
     
   }
 
